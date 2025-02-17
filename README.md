@@ -49,6 +49,7 @@ npm run test:dev        <- Run all test with dev environment
     ├── playwright.config.ts        <- playwright configuring
     ├── README.md                   <- The top-level README for users using this project.
     ├── setup.ts                    <- Init setup for test
+    ├── .env
     └── tsconfig.json               <- Compile option to convert TS to JS.
 ```
 ## Author
