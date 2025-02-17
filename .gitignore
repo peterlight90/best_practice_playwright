@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# TypeScript build output
+dist/
+build/
+
+# Playwright test artifacts
+*.report/
+allure-results/
+allure-report/
+
+# Playwright video/screenshots from tests
+playwright-report/
+
+# Environment files
+.env
+.env.*  # If using different env files (e.g. .env.test)
+
+# VSCode settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Coverage reports
+coverage/
+
+# npm package lock file
+package-lock.json
+
+# Optional: IDE config files
+.idea/
+*.sublime-workspace
+*.sublime-project
+.env
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
